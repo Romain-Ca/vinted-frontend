@@ -1,0 +1,126 @@
+/* Publish details */
+
+.publish-main {
+  background-color: #ebedee;
+}
+
+.publish-container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.publish-container h2 {
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+.publish-form {
+}
+
+.file-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 0 2px #2daeb7;
+}
+
+.without-file {
+  border: 1px dashed #2daeb7;
+  border-radius: 5px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-input-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 5px 0;
+  box-shadow: 0 0 2px #2daeb7;
+}
+
+.text-input {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  padding: 25px;
+}
+
+#text::placeholder {
+  color: lightgray;
+}
+
+.text-input p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.text-input > input {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #c4ebee;
+  width: 50vw;
+}
+
+.checkbox-input-container {
+  width: 50vw;
+}
+
+.input-price {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #c4ebee;
+}
+
+.checkbox-interested {
+  margin-top: 20px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 0;
+}
+
+.add-button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #2daeb7;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.unvalidate-add-button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #a0f4fa;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  outline: none;
+}
+
+.add-button:hover {
+  background-color: #4bcfd8;
+}
+
+/* Hidden */
+
+.input-design {
+}
+
+/* Media Queries */

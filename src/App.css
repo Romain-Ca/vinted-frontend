@@ -1,0 +1,117 @@
+/* ------ HOME -------- */
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.body {
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* Pour la font-family c 'est : maison neue */
+}
+
+.site-content {
+  margin: 30px auto auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* -------- LOGIN / SIGNUP --------- */
+
+.signlog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+.signlog-form {
+  width: 275px;
+  margin: auto;
+}
+
+.form-error {
+  color: red;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+.signlog-form > input {
+  border: none;
+  border-bottom: 1px solid #2cb1ba;
+  height: 35px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  width: 100%;
+
+  outline: none;
+}
+
+.newsletter-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.newsletter-container p {
+  text-align: left;
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.check {
+  transform: scale(2);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.newsletter-container span {
+  color: #666;
+}
+
+.validate-button {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  height: 45px;
+  width: 100%;
+  background-color: #2cb1ba;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.unvalidate-button {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  height: 45px;
+  width: 100%;
+  background-color: #2cb1ba;
+  opacity: 0.3;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+.signlog-form p {
+  color: #2cb1ba;
+  font-size: 12px;
+}

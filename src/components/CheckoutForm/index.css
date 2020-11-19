@@ -1,0 +1,95 @@
+/* CheckoutForm */
+
+.paiement-container {
+  background: #ebedee;
+  display: flex;
+  justify-content: center;
+}
+
+.paiement-section {
+  width: 50vw;
+  padding: 30px 40px;
+  background-color: #fff;
+  box-shadow: 0 0 2px #2daeb7;
+}
+
+.paiement-container h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #999;
+}
+
+.paiement-recap {
+  margin-bottom: 50px;
+}
+
+.name {
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  padding: 15px;
+}
+
+.recap-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.recap {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  height: 0.3px;
+  background: #3ad7e2;
+  margin: 27px 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paiement-card {
+}
+
+.paiement-container {
+  padding: 25px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.card-validation {
+}
+
+.element-card {
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-button {
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #2daeb7;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.element-button:hover {
+  background-color: #4bcfd8;
+}

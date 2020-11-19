@@ -1,0 +1,94 @@
+/* Introduction */
+
+.introduction {
+  height: 455px;
+  position: relative;
+}
+
+.container-padding-horizontal {
+  padding: 2% 18%;
+}
+
+.home-hero-bg-img {
+  background-image: url("../../images/fond.jpg");
+  height: 455px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-hero-forme {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+  pointer-events: none;
+}
+
+.card-promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 70px;
+  background-color: #fff;
+  height: 190px;
+  width: 330px;
+  border-radius: 5px;
+  padding: 35px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.card-login {
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #2daeb7;
+  border-radius: 5px;
+  width: 190px;
+  color: white;
+  height: 45px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.card-login:hover {
+  background-color: #4bcfd8;
+}
+
+.link-explication {
+  color: #2daeb7;
+}
+
+/* ---------------------------------
+MEDIA QUERIES 
+--------------------------------- */
+
+@media (max-width: 1328px) {
+  .card-promo {
+    left: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-promo {
+    left: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card-promo {
+    left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-promo {
+    left: 10px;
+  }
+}

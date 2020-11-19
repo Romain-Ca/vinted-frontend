@@ -1,0 +1,126 @@
+/* -------- OFFER --------- */
+
+.offer-body {
+  background-color: #ebedee;
+}
+
+.offer-container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.pictures-container {
+  display: flex;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+
+.offer-pictures {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+.offer-infos {
+  width: 50vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 350px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.offer-price {
+  font-size: 24px;
+  line-height: 32px;
+  color: #111;
+}
+
+.offer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-keys {
+  color: #999;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.list-elem {
+  color: #666;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 32px;
+  text-align: right;
+}
+
+.divider {
+  margin: 20% 0;
+  border-bottom: rgba(17, 17, 17, 0.1) solid 1px;
+}
+
+.owner-name {
+  font-weight: 700;
+}
+
+.owner-description {
+  color: #666;
+  margin: 5% 0;
+}
+
+.owner-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.offer-infos button {
+  color: #fff;
+  background: #09b1ba;
+  border: 1px solid #09b1ba;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  height: 36px;
+  padding: 0 16px;
+  line-height: 36px;
+  margin-top: 20%;
+  cursor: pointer;
+}
+
+.offer-infos button:hover {
+  background-color: #4bcfd8;
+}
+
+/* Media Queries */
+
+@media (max-width: 1328px) {
+  .offer-body {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+@media (max-width: 880px) {
+  .offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
